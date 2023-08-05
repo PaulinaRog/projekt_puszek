@@ -1,7 +1,7 @@
 export const nav = [
   {
     id: 1,
-    link: "",
+    link: ".",
     name: "OPIEKA",
     sub: [
       {
@@ -24,39 +24,39 @@ export const nav = [
   },
   {
     id: 2,
-    link: "",
+    link: "/blog",
     name: "ARTYKUŁY",
     sub: [
       {
-        link: "",
+        link: "/blog/koty/1",
         name: "KOTY",
       },
       {
-        link: "",
+        link: "/blog/psy/1",
         name: "PSY",
       },
       {
-        link: "",
+        link: "/blog/gryzonie/1",
         name: "GRYZONIE",
       },
       {
-        link: "",
+        link: "/blog/ptaki/1",
         name: "PTAKI",
       },
       {
-        link: "",
+        link: "/blog/akwarystyka/1",
         name: "AKWARYSTYKA",
       },
     ],
   },
   {
     id: 3,
-    link: "",
+    link: ".",
     name: "SKLEP",
   },
   {
     id: 4,
-    link: "",
+    link: ".",
     name: "KONTAKT",
   },
 ];

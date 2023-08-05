@@ -4,12 +4,17 @@ import logoDark from "../public/logo/logo-long-dark-acc.png";
 import Image from "next/image";
 import Link from "next/link";
 import { nav } from "@/services/Nav";
+import { useRouter } from "next/router";
 
 export default function Layout({ children }) {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [logo, setLogo] = useState(logoLight);
   const [menuVisible, setMenuVisible] = useState(false);
   const [showSubcategories, setShowSubcategories] = useState({});
+
+  const router = useRouter();
+  const currentRoute = router.asPath;
+  const isBlogPage = currentRoute.startsWith("/blog");
 
   useEffect(() => {
     const isDark = localStorage.getItem("darkMode");
@@ -69,36 +74,59 @@ export default function Layout({ children }) {
             }
       lg:translate-x-0 lg:bg-transparent flex lg:flex-row gap-3 flex-col lg:w-[40vw] lg:justify-between lg:pb-0 lg:pl-0 lg:left-auto lg:right-auto lg:top-auto lg:static lg:pt-0`}
           >
-            {nav.map((link) => (
-              <React.Fragment key={link.id}>
-                <div className="flex justify-between pr-5 items-center">
-                  <Link href={link.link}>{link.name}</Link>
-                  {link.sub ? (
-                    <button
-                      className="rounded-full px-1 py-1 shadow-none lg:hidden"
-                      onClick={() => toggleShowSub(link.id)}
+            {nav.map((link) => {
+              const isCurrentRoute =
+                currentRoute.startsWith(link.link) ||
+                currentRoute === link.link;
+
+              return (
+                <React.Fragment key={link.id}>
+                  <div className="flex justify-between pr-5 items-center">
+                    <Link
+                      href={link.link}
+                      className={`${
+                        isCurrentRoute
+                          ? "text-acc-light dark:text-acc-dark"
+                          : ""
+                      }`}
                     >
-                      {showSubcategories[link.id] ? (
-                        <i className="fa-solid fa-chevron-up"></i>
-                      ) : (
-                        <i className="fa-solid fa-chevron-down"></i>
-                      )}
-                    </button>
-                  ) : null}
-                </div>
-                {showSubcategories[link.id] && (
-                  <div className="flex flex-col gap-2 pl-10 lg:hidden">
-                    {link.sub &&
-                      link.sub.length > 0 &&
-                      link.sub.map((subCat) => (
-                        <Link key={subCat.name} href={subCat.link}>
-                          {subCat.name}
-                        </Link>
-                      ))}
+                      {link.name}
+                    </Link>
+                    {link.sub ? (
+                      <button
+                        className="rounded-full px-1 py-1 shadow-none lg:hidden"
+                        onClick={() => toggleShowSub(link.id)}
+                      >
+                        {showSubcategories[link.id] ? (
+                          <i className="fa-solid fa-chevron-up"></i>
+                        ) : (
+                          <i className="fa-solid fa-chevron-down"></i>
+                        )}
+                      </button>
+                    ) : null}
                   </div>
-                )}
-              </React.Fragment>
-            ))}
+                  {showSubcategories[link.id] && (
+                    <div className="flex flex-col gap-2 pl-10 lg:hidden">
+                      {link.sub &&
+                        link.sub.length > 0 &&
+                        link.sub.map((subCat) => (
+                          <Link
+                            key={subCat.name}
+                            href={subCat.link}
+                            className={`${
+                              currentRoute === subCat.link
+                                ? "text-acc-light dark:text-acc-dark"
+                                : ""
+                            }`}
+                          >
+                            {subCat.name}
+                          </Link>
+                        ))}
+                    </div>
+                  )}
+                </React.Fragment>
+              );
+            })}
 
             <Link href="">
               <i className="fa-solid fa-circle-user"></i>
@@ -124,9 +152,17 @@ export default function Layout({ children }) {
           </button>
         </div>
         <div className="h-[7vh] w-full bg-secondary-light dark:bg-secondary-dark hidden lg:flex justify-evenly items-center">
-          {nav[0].sub.map((subCat) => {
+          {nav[isBlogPage ? 1 : 0].sub.map((subCat) => {
             return (
-              <Link key={subCat.name} href={subCat.link}>
+              <Link
+                key={subCat.name}
+                href={subCat.link}
+                className={`${
+                  currentRoute === subCat.link
+                    ? "text-acc-light dark:text-acc-dark"
+                    : ""
+                }`}
+              >
                 {subCat.name}
               </Link>
             );
@@ -134,7 +170,7 @@ export default function Layout({ children }) {
         </div>
       </header>
       <main>{children}</main>
-      <footer className="w-full h-fit container bg-secondary-light dark:bg-secondary-dark flex lg:flex-row flex-col lg:items-start gap-3 justify-between p-3">
+      <footer className="w-full h-fit bg-secondary-light dark:bg-secondary-dark flex lg:flex-row flex-col lg:items-start gap-3 justify-between p-3">
         <div className="flex flex-col items-center lg:items-start">
           <Image
             width={250}

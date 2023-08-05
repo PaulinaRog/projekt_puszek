@@ -21,11 +21,11 @@ a {
 }
 
 input {
-  @apply rounded-lg outline-none border-2 border-secondary-light dark:border-secondary-dark focus:border-acc-light dark:focus:border-acc-dark bg-secondary-light dark:bg-secondary-dark shadow-md shadow-secondary-dark dark:shadow-black py-2 px-5;
+  @apply rounded-lg outline-none border-2 border-secondary-light dark:border-secondary-dark focus:border-acc-light dark:focus:border-acc-dark bg-secondary-light dark:bg-secondary-dark shadow-md shadow-shdw-light dark:shadow-shdw-dark py-2 px-5;
 }
 
 button {
-  @apply dark:shadow-black shadow-secondary-dark shadow-md hover:text-acc-light hover:dark:text-acc-dark active:shadow-inner;
+  @apply dark:shadow-shdw-dark shadow-shdw-light shadow-md hover:text-acc-light hover:dark:text-acc-dark active:shadow-inner;
 }
 
 a {

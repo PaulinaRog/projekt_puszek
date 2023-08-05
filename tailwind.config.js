@@ -25,8 +25,36 @@ module.exports = {
           light: "#D4D4D4",
           dark: "#403F3F",
         },
+        shdw: {
+          light: "#767676",
+          dark: "black",
+        },
       },
     },
+    container: {
+      center: true,
+      padding: "2rem",
+    },
+    typography: (theme) => ({
+      DEFAULT: {
+        css: {
+          h2: {
+            // Add your h2 styles here
+            fontSize: theme("fontSize.2xl"),
+            fontWeight: theme("fontWeight.bold"),
+            marginBottom: theme("margin.4"),
+          },
+          p: {
+            // Add your p styles here
+            fontSize: theme("fontSize.base"),
+            marginBottom: theme("margin.4"),
+          },
+          img: {
+            width: "100%",
+          },
+        },
+      },
+    }),
   },
   variants: {
     extend: {
@@ -34,5 +62,6 @@ module.exports = {
       textColor: ["dark"],
     },
   },
-  plugins: [],
+
+  plugins: [require("@tailwindcss/typography")],
 };
