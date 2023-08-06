@@ -42,14 +42,14 @@ export default function Articles({
     <Layout>
       <div className="my-[50px] container">
         <h1 className="text-3xl self-start">Kategorie</h1>
-        <div className=" max-w-lg h-[1px] bg-acc-light dark:bg-acc-dark m-auto my-10"></div>
+        <div className=" max-w-lg h-[0.5px] bg-acc-light dark:bg-acc-dark m-auto my-10"></div>
         <p className="mt-8 lg:max-w-[60vw] m-auto">{desc[0].desc}</p>
         <div className=" max-w-lg h-[0.5px] bg-acc-light dark:bg-acc-dark m-auto my-10 mb-32"></div>
       </div>
       <div className="h-fit my-[50px] flex flex-col gap-5 container items-center">
         {categories.map((category) => (
           <div
-            className="flex flex-col lg:w-[50vw] mb-10 border-[1px] rounded-2xl shadow-lg dark:shadow-shdw-dark  shadow-shdw-light border-acc-light dark:border-acc-dark"
+            className="flex flex-col lg:w-[50vw] w-[90vw] mb-10 border-[1px] rounded-2xl shadow-lg dark:shadow-shdw-dark  shadow-shdw-light border-acc-light dark:border-acc-dark"
             key={category.name}
           >
             <div className="lg:h-[250px] h-[150px] mb-8">

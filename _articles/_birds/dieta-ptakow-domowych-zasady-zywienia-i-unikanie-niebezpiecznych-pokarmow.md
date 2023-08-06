@@ -3,6 +3,7 @@ title: "Dieta ptaków domowych: Zasady żywienia i unikanie niebezpiecznych poka
 description: "Ptaki domowe, takie jak papugi czy kanarki, potrzebują odpowiedniej i zrównoważonej diety, aby zachować dobre zdrowie i witalność. Jak właściciel ptaka, twoim zadaniem jest dostarczenie mu odpowiednich składników odżywczych, które zaspokoją jego potrzeby żywieniowe. Jednak jednocześnie należy uważać na potencjalnie niebezpieczne pokarmy, które mogą zaszkodzić ptakowi."
 tags: ["ptaki", "dieta ptaków"]
 cover: "/covers/blue-parrot.jpg"
+category: "zywienie_ptakow"
 date: 06.08.2023
 ---
 

@@ -3,6 +3,7 @@ title: "Kocie zdrowie na co dzień: Proste sposoby dbania o dobrostan kota"
 description: "Koty to nie tylko urocze i niezależne stworzenia, ale także nasze wiernie towarzysze, które zasługują na pełne i zdrowe życie. Dobrostan kota jest ściśle związany z jego zdrowiem, dlatego tak ważne jest dbanie o jego fizyczne i psychiczne potrzeby. W tym artykule przyjrzymy się wpływowi zdrowia na dobrostan kota oraz omówimy częste problemy zdrowotne, które mogą go dotyczyć."
 tags: ["koty", "dbanie o kota"]
 cover: "/covers/cat-eyes.png"
+category: "zdrowie_i_pielegnacja_kota"
 date: 06.08.2023
 ---
 

@@ -3,6 +3,7 @@ title: "Podstawy pielęgnacji akwarium: Jak dbać o czystość wody i zdrowie ry
 description: "Akwarium to fascynujący ekosystem, który wymaga odpowiedniej pielęgnacji, aby ryby mogły cieszyć się zdrowiem i dobrej jakości wodą. Poniżej przedstawiamy podstawowe wskazówki dotyczące pielęgnacji akwarium, które pozwolą utrzymać czystość wody i zapewnić zdrowie ryb."
 tags: ["akwarystyka", "jak dbać o akwarium"]
 cover: "/covers/fish.jpg"
+category: "konserwacja_zbiornika"
 date: 05.08.2023
 ---
 

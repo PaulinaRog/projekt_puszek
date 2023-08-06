@@ -3,6 +3,7 @@ title: "Zdrowie gryzoni: Jak rozpoznać i leczyć częste problemy zdrowotne"
 description: "Zdrowie gryzoni jest ważne, a jako właściciel, powinieneś być świadomy częstych problemów zdrowotnych, które mogą dotyczyć twojego pupila. Wczesne rozpoznanie i odpowiednie leczenie tych schorzeń może zapobiec poważnym konsekwencjom."
 tags: ["gryzonie", "zdrowie gryzoni"]
 cover: "/covers/bunny.jpg"
+category: zdrowie_i_pielegnacja_gryzoni
 date: 06.08.2023
 ---
 

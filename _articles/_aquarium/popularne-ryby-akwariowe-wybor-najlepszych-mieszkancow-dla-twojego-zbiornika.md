@@ -3,6 +3,7 @@ title: "Popularne ryby akwariowe: Wybór najlepszych mieszkańców dla twojego z
 description: "Wybór odpowiednich ryb akwariowych to kluczowy krok w utrzymaniu zdrowego i harmonijnego zbiornika. Istnieje wiele różnych gatunków ryb, które można trzymać w akwarium, ale niektóre z nich są bardziej popularne i bardziej odpowiednie dla początkujących akwarystów."
 tags: ["akwarystyka", "ryby akwariowe"]
 cover: "/covers/guppy.jpg"
+category: "gatunki_zwierzat_akwariowych"
 date: 06.08.2023
 ---
 

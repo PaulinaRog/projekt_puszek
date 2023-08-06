@@ -12,7 +12,7 @@ export const getAllPosts = ({ folder }) => {
 
   const serializedPosts = sortedPosts.map((post) => ({
     ...post,
-    createdAt: post.createdAt.toISOString(),
+    createdAt: post.createdAt,
   }));
 
   return serializedPosts;

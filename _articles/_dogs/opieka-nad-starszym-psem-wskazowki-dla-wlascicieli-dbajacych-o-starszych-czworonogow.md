@@ -2,6 +2,7 @@
 title: "Opieka nad starszym psem: Wskazówki dla właścicieli dbających o starszych czworonogów"
 description: "Wiek nie jest przeszkodą w miłości i trosce o naszych starszych czworonożnych przyjaciół. Kiedy nasz pies staje się starszy, wymaga on szczególnej uwagi i opieki, aby zapewnić mu zdrowe i szczęśliwe życie w późniejszych latach. W tym artykule przedstawiamy wskazówki dla właścicieli dbających o starszych psów, które pomogą im w pełni cieszyć się swoim towarzystwem i zapewnić im komfort w podeszłym wieku."
 tags: ["psy", "starsze psy"]
+category: "zdrowie_i_pielegnacja_psa"
 cover: "/covers/old-dog.jpg"
 date: 06.08.2023
 ---

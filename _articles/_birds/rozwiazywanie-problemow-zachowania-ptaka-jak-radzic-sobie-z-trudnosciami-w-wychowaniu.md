@@ -3,6 +3,7 @@ title: "Rozwiązywanie problemów zachowania ptaka: Jak radzić sobie z trudnoś
 description: "Wychowywanie ptaka może być wspaniałym doświadczeniem, ale czasami mogą pojawić się trudności związane z jego zachowaniem. Ptaki, tak samo jak inne zwierzęta, mogą wykazywać niepożądane zachowania, które mogą być frustrujące dla właściciela. Warto jednak pamiętać, że większość problemów zachowania u ptaków można skutecznie rozwiązać, stosując odpowiednie metody i podejście."
 tags: ["ptaki", "wychowanie ptaka"]
 cover: "/covers/canary.jpg"
+category: "wychowanie_ptakow"
 date: 06.08.2023
 ---
 

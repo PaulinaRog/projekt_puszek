@@ -5,6 +5,7 @@ tags:
   - terrarystyka
   - jak zapewnić rozrywkę zwierzętom terrarystycznym
 cover: "/covers/lizard.jpg"
+category: "zdrowie_i_pielegnacja_terrarium"
 date: 06.08.2023
 ---
 

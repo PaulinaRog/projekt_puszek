@@ -3,6 +3,7 @@ title: "Rozumienie zachowań psa: Czytanie języka ciała i komunikacja werbalna
 description: "Psy są jednymi z najwierniejszych towarzyszy człowieka. Ich zachowania są fascynujące i różnorodne, a zrozumienie tego, co próbują nam powiedzieć, może wzmocnić naszą więź i umożliwić lepszą komunikację. W tym artykule przyjrzymy się, jak czytać język ciała psa oraz jak rozumieć ich komunikację werbalną."
 tags: ["psy", "jak zrozumieć psa"]
 cover: "/covers/doggo.jpg"
+category: "wychowanie_psa"
 date: 05.08.2023
 ---
 

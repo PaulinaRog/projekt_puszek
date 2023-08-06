@@ -1,5 +1,6 @@
 import Article from "@/components/Article";
 import Layout from "@/components/Layout";
+import SubNav from "@/components/SubNav";
 import { getFileBySlug, getList } from "@/lib/mdParser";
 import React from "react";
 
@@ -22,8 +23,12 @@ export const getStaticProps = async (req) => {
 };
 
 export default function SingleArticle({ article }) {
+  const path = "psy";
+  const navCount = 1;
+
   return (
     <Layout>
+      <SubNav path={path} navCount={navCount} />
       <Article article={article} />
     </Layout>
   );

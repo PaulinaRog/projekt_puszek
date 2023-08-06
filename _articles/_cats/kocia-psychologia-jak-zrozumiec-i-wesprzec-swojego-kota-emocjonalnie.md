@@ -3,6 +3,7 @@ title: "Kocia psychologia: Jak zrozumieć i wesprzeć swojego kota emocjonalnie"
 description: "Koty to wyjątkowe stworzenia, które od wieków towarzyszą ludziom. Są one nie tylko naszymi towarzyszami, ale także pełnoprawnymi członkami rodziny. Wielu właścicieli kotów zdaje sobie sprawę, że ich pupile mają swoje emocje, potrzeby i sposoby wyrażania uczuć. Warto poznać nieco kocią psychologię, aby zbudować silniejszą więź z naszymi futrzanymi przyjaciółmi i w pełni ich zrozumieć. W tym artykule dowiemy się, jak zrozumieć i wesprzeć swojego kota emocjonalnie."
 tags: ["koty", "jak zrozumieć kota"]
 cover: "/covers/kitten.jpg"
+category: "wychowanie_kota"
 date: 05.08.2023
 ---
 

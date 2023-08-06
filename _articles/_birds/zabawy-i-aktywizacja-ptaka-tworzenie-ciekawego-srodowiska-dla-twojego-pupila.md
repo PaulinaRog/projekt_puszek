@@ -3,6 +3,7 @@ title: "Zabawy i aktywizacja ptaka: Tworzenie ciekawego środowiska dla twojego 
 description: "Ptaki są niesamowicie inteligentnymi i ciekawskimi stworzeniami, które potrzebują odpowiedniej aktywizacji i zabawy, aby zachować dobre zdrowie psychiczne i fizyczne. Tworzenie ciekawego środowiska dla swojego ptaka to kluczowy element dbania o jego dobrostan. W tym artykule przedstawimy kilka pomysłów na zabawy i aktywizację ptaka, które pozwolą mu rozwinąć swoje naturalne instynkty i umiejętności."
 tags: ["ptaki", "zabawy dla ptaków"]
 cover: "/covers/parrot.jpg"
+category: "wychowanie_ptakow"
 date: 05.08.2023
 ---
 

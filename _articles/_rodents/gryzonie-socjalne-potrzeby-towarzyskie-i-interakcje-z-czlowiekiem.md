@@ -3,6 +3,7 @@ title: "Gryzonie socjalne: Potrzeby towarzyskie i interakcje z człowiekiem"
 description: "Gryzonie domowe, takie jak chomiki, świnki morskie, szczury czy myszki, są znane ze swojej społecznościowej natury i potrzeby bliskości z innymi swojego gatunku oraz z ludźmi. W tym artykule omówimy, jakie są potrzeby towarzyskie u gryzoni socjalnych i jak zapewnić im odpowiednią interakcję z człowiekiem, aby zapewnić im pełen i szczęśliwy styl życia."
 tags: ["gryzonie", "potrzeby gryzoni"]
 cover: "/covers/guinneapig.jpg"
+category: "wychowanie_i_zabawa_gryzoni"
 date: 05.08.2023
 ---
 

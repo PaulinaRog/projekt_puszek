@@ -14,5 +14,6 @@ export const desc = [
           Zapraszamy do odkrywania świata zwierząt domowych razem z nami.`}
       </>
     ),
+    title: "Kategorie",
   },
 ];

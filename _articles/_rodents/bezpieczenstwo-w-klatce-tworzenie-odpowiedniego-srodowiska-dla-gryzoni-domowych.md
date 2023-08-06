@@ -3,6 +3,7 @@ title: "Bezpieczeństwo w klatce: Tworzenie odpowiedniego środowiska dla gryzon
 description: "Zapewnienie odpowiedniego środowiska w klatce jest kluczowe dla zdrowia i dobrostanu gryzoni domowych, takich jak chomiki, myszki czy świnki morskie. Klatka powinna być bezpiecznym i komfortowym miejscem, gdzie zwierzęta mogą rozwijać swoje naturalne zachowania, bawić się i odpoczywać."
 tags: ["gryzonie", "bezpieczna klatka"]
 cover: "/covers/rat.jpg"
+category: "zdrowie_i_pielegnacja_gryzoni"
 date: 06.08.2023
 ---
 

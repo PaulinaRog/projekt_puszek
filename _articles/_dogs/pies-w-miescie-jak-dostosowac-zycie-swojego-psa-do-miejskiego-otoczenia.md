@@ -3,6 +3,7 @@ title: "Pies w mieście: Jak dostosować życie swojego psa do miejskiego otocze
 description: "Mieszkanie w mieście nie musi oznaczać rezygnacji z posiadania psa. Wielu właścicieli czworonogów świetnie radzi sobie z życiem w mieście, pod warunkiem, że odpowiednio dostosujemy ich środowisko i zapewnimy im odpowiednią opiekę. Pies w mieście wymaga specyficznej troski i uwagi, aby zapewnić mu zdrowie, bezpieczeństwo i szczęście w tego typu otoczeniu."
 tags: ["psy", "pies w mieście"]
 cover: "/covers/puppy.jpg"
+category: "zdrowie_i_pielegnacja_psa"
 date: 06.08.2023
 ---
 

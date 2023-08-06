@@ -5,6 +5,7 @@ tags:
   - terrarystyka
   - wybór terrarium
 cover: "/covers/frog.jpg"
+category: "urzadzanie_terrarium"
 date: 06.08.2023
 ---
 

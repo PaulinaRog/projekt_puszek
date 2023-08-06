@@ -3,6 +3,7 @@ title: "Oświetlenie akwarium: Dlaczego jest tak ważne i jakie wybrać?"
 description: "Oświetlenie akwarium odgrywa kluczową rolę w utrzymaniu zdrowego i atrakcyjnego środowiska dla ryb i roślin. Jest ważne z kilku powodów i ma wpływ na wiele aspektów akwarium."
 tags: ["akwarystyka", "oświetlenie akwarium"]
 cover: "/covers/neons.jpg"
+category: "konserwacja_zbiornika"
 date: 06.08.2023
 ---
 

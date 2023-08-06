@@ -5,6 +5,7 @@ tags:
   - terrarystyka
   - początki terrarystyki
 cover: "/covers/snake.jpg"
+category: "urzadzanie_terrarium"
 date: 06.08.2023
 ---
 
