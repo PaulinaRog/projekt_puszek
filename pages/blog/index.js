@@ -2,6 +2,7 @@ import Layout from "@/components/Layout";
 import Links from "@/components/Links";
 import { getList } from "@/lib/mdParser";
 import categories from "@/services/articleCategoriesList";
+import { desc } from "@/services/siteDescriptions";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -19,16 +20,32 @@ export const getStaticProps = () => {
 
 const generateLinks = (posts) => {
   return posts.map((post) => {
-    return <Links post={post} key={post.slug} sub={post.tags[0]} />;
+    return (
+      <Links
+        post={post}
+        key={post.slug}
+        sub={post.tags && post.tags.length > 0 ? post.tags[0] : null}
+      />
+    );
   });
 };
 
-export default function Articles({ cats, dogs, birds, rodents, aquarium }) {
+export default function Articles({
+  cats,
+  dogs,
+  birds,
+  rodents,
+  aquarium,
+  terrarium,
+}) {
   return (
     <Layout>
-      <h1 className="text-3xl self-start mt-[50px] container">
-        Ostatnie artykuły
-      </h1>
+      <div className="my-[50px] container">
+        <h1 className="text-3xl self-start">Kategorie</h1>
+        <div className=" max-w-lg h-[1px] bg-acc-light dark:bg-acc-dark m-auto my-10"></div>
+        <p className="mt-8 lg:max-w-[60vw] m-auto">{desc[0].desc}</p>
+        <div className=" max-w-lg h-[0.5px] bg-acc-light dark:bg-acc-dark m-auto my-10 mb-32"></div>
+      </div>
       <div className="h-fit my-[50px] flex flex-col gap-5 container items-center">
         {categories.map((category) => (
           <div

@@ -10,30 +10,30 @@ export async function getServerSideProps({ query }) {
   const page = query.page ? parseInt(query.page, 10) : 1;
   const startIndex = (page - 1) * postsPerPage;
 
-  const allPosts = getList(`_articles/_cats`);
+  const allPosts = getList(`_articles/_terrarium`);
   const paginatedPosts = allPosts.slice(startIndex, startIndex + postsPerPage);
   const totalPages = Math.ceil(allPosts.length / postsPerPage);
 
   return {
     props: {
-      cats: paginatedPosts,
+      terrarium: paginatedPosts,
       currentPage: page,
       totalPages,
     },
   };
 }
 
-export default function Cat({ cats, currentPage, totalPages }) {
-  const path = "koty";
+export default function Terr({ terrarium, currentPage, totalPages }) {
+  const path = "terrarystyka";
 
   return (
     <Layout>
       <h1 className="text-3xl self-start mt-[50px] container">
-        Koty - artykuły
+        Terrarystyka - artykuły
       </h1>
       <div className="h-fit container my-[50px]">
         <div className="flex flex-wrap gap-10">
-          {cats.map((post) => (
+          {terrarium.map((post) => (
             <Posts post={post} key={post.slug} sub={post.tags[0]} />
           ))}
         </div>

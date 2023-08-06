@@ -114,6 +114,7 @@ export default function Layout({ children }) {
                             key={subCat.name}
                             href={subCat.link}
                             className={`${
+                              currentRoute.startsWith(subCat.link) ||
                               currentRoute === subCat.link
                                 ? "text-acc-light dark:text-acc-dark"
                                 : ""
@@ -158,6 +159,7 @@ export default function Layout({ children }) {
                 key={subCat.name}
                 href={subCat.link}
                 className={`${
+                  currentRoute.startsWith(subCat.link) ||
                   currentRoute === subCat.link
                     ? "text-acc-light dark:text-acc-dark"
                     : ""

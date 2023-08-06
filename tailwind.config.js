@@ -41,7 +41,7 @@ module.exports = {
           h2: {
             // Add your h2 styles here
             fontSize: theme("fontSize.2xl"),
-            fontWeight: theme("fontWeight.bold"),
+            fontWeight: theme("fontWeight.semibold"),
             marginBottom: theme("margin.4"),
           },
           p: {
@@ -51,6 +51,7 @@ module.exports = {
           },
           img: {
             width: "100%",
+            marginBottom: "40px",
           },
         },
       },

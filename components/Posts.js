@@ -8,7 +8,7 @@ export default function Posts({ post, sub }) {
       href={`/blog/${sub}/post/${post.slug}`}
       className="flex flex-col lg:w-[30vw] mb-10 border-[1px] rounded-2xl shadow-lg dark:shadow-shdw-dark  shadow-shdw-light border-acc-light dark:border-acc-dark"
     >
-      <div className="h-[250px] mb-2">
+      <div className="h-[200px] mb-2">
         <Image
           src={post.cover}
           width={200}
@@ -17,7 +17,8 @@ export default function Posts({ post, sub }) {
           className="object-cover w-full h-full rounded-t-2xl"
         />
       </div>
-      <h2 className="m-3">{post.title}</h2>
+      <h2 className="m-3 font-medium text-lg">{post.title}</h2>
+      <p className=" m-3 text-sm">{`${post.description.slice(0, 150)}...`}</p>
     </Link>
   );
 }

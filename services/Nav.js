@@ -47,6 +47,10 @@ export const nav = [
         link: "/blog/akwarystyka/1",
         name: "AKWARYSTYKA",
       },
+      {
+        link: "/blog/terrarystyka/1",
+        name: "TERRARYSTYKA",
+      },
     ],
   },
   {

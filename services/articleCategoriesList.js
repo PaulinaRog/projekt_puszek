@@ -24,6 +24,11 @@ const categories = [
     imageSrc: "/article-cat/akwarystyka.jpg",
     alt: "akwarystyka",
   },
+  {
+    name: "terrarium",
+    imageSrc: "/article-cat/terrarystyka.jpg",
+    alt: "terrarystyka",
+  },
 ];
 
 export default categories;

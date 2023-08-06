@@ -4,7 +4,7 @@ import { getFileBySlug, getList } from "@/lib/mdParser";
 import React from "react";
 
 export const getStaticPaths = () => {
-  const articles = getList(`_articles/_dogs`);
+  const articles = getList(`_articles/_terrarium`);
 
   return {
     paths: articles.map((art) => ({ params: { slug: art.slug } })),
@@ -14,7 +14,7 @@ export const getStaticPaths = () => {
 
 export const getStaticProps = async (req) => {
   const { slug } = req.params;
-  const article = await getFileBySlug("_articles/_dogs", slug);
+  const article = await getFileBySlug("_articles/_terrarium", slug);
 
   return {
     props: { article },

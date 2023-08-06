@@ -31,11 +31,12 @@ export default function Aquariums({ aquarium, currentPage, totalPages }) {
       <h1 className="text-3xl self-start mt-[50px] container">
         Akwarystyka - artykuły
       </h1>
-      <div className="h-[100vh] container my-[50px]">
-        {aquarium.map((post) => (
-          <Posts post={post} key={post.slug} sub={post.tags[0]} />
-        ))}
-
+      <div className="h-fit container my-[50px]">
+        <div className="flex flex-wrap gap-10">
+          {aquarium.map((post) => (
+            <Posts post={post} key={post.slug} sub={post.tags[0]} />
+          ))}
+        </div>
         {/* Pagination buttons */}
         <div className="flex justify-center mt-8">
           {currentPage !== 1 && (
