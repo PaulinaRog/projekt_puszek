@@ -35,3 +35,7 @@ npm i remark-gfm
 ```bash
 npm i '@tailwindcss/typography'
 ```
+
+```bash
+npm i react-share
+```

@@ -5,6 +5,7 @@ tags: ["gryzonie", "potrzeby gryzoni"]
 cover: "/covers/guinneapig.jpg"
 category: "wychowanie_i_zabawa_gryzoni"
 date: 05.08.2023
+time: "16:52:34"
 ---
 
 ![świnka morska](/covers/guinneapig.jpg)

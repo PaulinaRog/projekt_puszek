@@ -5,6 +5,7 @@ tags: ["ptaki", "wychowanie ptaka"]
 cover: "/covers/canary.jpg"
 category: "wychowanie_ptakow"
 date: 06.08.2023
+time: "07:53:44"
 ---
 
 ![kanarek](/covers/canary.jpg)

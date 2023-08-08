@@ -1,5 +1,5 @@
 ---
-title: "Podstawy terrarystyki: Jak rozpocząć przygodę z egzotycznymi zwierzętami w terrarium"
+title: "Podstawy terrarystyki: Jak rozpocząć przygodę z egzotycznymi zwierzętami"
 description: "Rozpoczęcie przygody z egzotycznymi zwierzętami w terrarium może być ekscytującym i satysfakcjonującym doświadczeniem. Terrarystyka to hodowla i opieka nad zwierzętami, takimi jak płazy, jaszczurki, węże czy bezkręgowce, w specjalnie przygotowanych terrariach."
 tags:
   - terrarystyka
@@ -7,6 +7,7 @@ tags:
 cover: "/covers/snake.jpg"
 category: "urzadzanie_terrarium"
 date: 06.08.2023
+time: "21:52:34"
 ---
 
 ![wąż](/covers/snake.jpg)

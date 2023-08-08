@@ -5,6 +5,7 @@ tags: ["ptaki", "zabawy dla ptaków"]
 cover: "/covers/parrot.jpg"
 category: "wychowanie_ptakow"
 date: 05.08.2023
+time: "11:24:22"
 ---
 
 ![papuga](/covers/parrot.jpg)

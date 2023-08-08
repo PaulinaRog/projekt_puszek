@@ -5,6 +5,7 @@ tags: ["psy", "jak zrozumieć psa"]
 cover: "/covers/doggo.jpg"
 category: "wychowanie_psa"
 date: 05.08.2023
+time: "18:52:34"
 ---
 
 ![pies](/covers/doggo.jpg)

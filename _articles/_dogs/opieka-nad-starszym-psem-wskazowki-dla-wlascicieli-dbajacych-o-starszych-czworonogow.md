@@ -5,6 +5,7 @@ tags: ["psy", "starsze psy"]
 category: "zdrowie_i_pielegnacja_psa"
 cover: "/covers/old-dog.jpg"
 date: 06.08.2023
+time: "14:52:34"
 ---
 
 ![starszy pies](/covers/old-dog.jpg)

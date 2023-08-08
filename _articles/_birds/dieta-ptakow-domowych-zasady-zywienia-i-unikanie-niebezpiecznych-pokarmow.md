@@ -5,6 +5,7 @@ tags: ["ptaki", "dieta ptaków"]
 cover: "/covers/blue-parrot.jpg"
 category: "zywienie_ptakow"
 date: 06.08.2023
+time: "09:52:31"
 ---
 
 ![papużka](/covers/blue-parrot.jpg)

@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { nav } from "@/services/Nav";
 import { useRouter } from "next/router";
+import CookieConsent from "./CookieConsent";
 
 export default function Layout({ children }) {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -170,6 +171,7 @@ export default function Layout({ children }) {
             );
           })}
         </div>
+        <CookieConsent />
       </header>
       <main>{children}</main>
       <footer className="w-full h-fit bg-secondary-light dark:bg-secondary-dark flex lg:flex-row flex-col lg:items-start gap-3 justify-between p-3">

@@ -5,6 +5,7 @@ tags: ["koty", "jak zrozumieć kota"]
 cover: "/covers/kitten.jpg"
 category: "wychowanie_kota"
 date: 05.08.2023
+time: "08:32:12"
 ---
 
 ![kociak](/covers/kitten.jpg)

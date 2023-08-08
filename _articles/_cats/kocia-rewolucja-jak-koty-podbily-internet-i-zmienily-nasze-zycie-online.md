@@ -7,6 +7,7 @@ tags:
 cover: "/covers/cat-sleeping.jpg"
 category: "gry_i_zabawy_kota"
 date: 06.08.2023
+time: "12:11:35"
 ---
 
 ![śpiący kociak](/covers/cat-sleeping.jpg)

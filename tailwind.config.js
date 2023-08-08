@@ -26,7 +26,7 @@ module.exports = {
           dark: "#403F3F",
         },
         shdw: {
-          light: "#767676",
+          light: "#7D7D7D",
           dark: "black",
         },
       },

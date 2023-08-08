@@ -6,7 +6,7 @@ export default function Posts({ post, sub }) {
   return (
     <Link
       href={`/blog/${sub}/post/${post.slug}`}
-      className="flex flex-col lg:w-[30vw] mb-10 border-[1px] rounded-2xl shadow-lg dark:shadow-shdw-dark  shadow-shdw-light border-acc-light dark:border-acc-dark"
+      className="flex flex-col lg:w-[30vw] mb-10 border-[1px] rounded-2xl shadow-lg dark:shadow-shdw-dark  shadow-shdw-light border-secondary-light bg-secondary-light dark:bg-bg-dark dark:border-acc-dark"
     >
       <div className="h-[200px] mb-2">
         <Image

@@ -5,6 +5,7 @@ tags: ["psy", "pies w mieście"]
 cover: "/covers/puppy.jpg"
 category: "zdrowie_i_pielegnacja_psa"
 date: 06.08.2023
+time: "15:52:34"
 ---
 
 ![szczeniak](/covers/puppy.jpg)

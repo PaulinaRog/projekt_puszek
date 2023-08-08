@@ -5,6 +5,7 @@ tags: ["akwarystyka", "oświetlenie akwarium"]
 cover: "/covers/neons.jpg"
 category: "konserwacja_zbiornika"
 date: 06.08.2023
+time: "10:52:34"
 ---
 
 ![neonki](/covers/neons.jpg)

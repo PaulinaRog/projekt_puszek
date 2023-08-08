@@ -15,9 +15,9 @@ export default function Intro({ navCount }) {
 
   return (
     <>
-      <h1 className="text-3xl self-start mt-[50px] container">
-        {subCategory ? subCategory.title : ""}
-      </h1>
+      <div className="self-start mt-[50px] container">
+        <h1 className="text-3xl">{subCategory ? subCategory.title : ""}</h1>
+      </div>
       <div className="lg:max-w-lg max-w-xs h-[0.5px] bg-acc-light dark:bg-acc-dark m-auto my-10"></div>
       <p className="mt-8 lg:max-w-[60vw] m-auto max-w-[90vw]">
         {subCategory ? subCategory.desc : ""}

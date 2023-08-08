@@ -5,6 +5,7 @@ tags: ["akwarystyka", "ryby akwariowe"]
 cover: "/covers/guppy.jpg"
 category: "gatunki_zwierzat_akwariowych"
 date: 06.08.2023
+time: "10:27:23"
 ---
 
 ![głupik](/covers/guppy.jpg)

@@ -1,4 +1,5 @@
 import React from "react";
+import ShareButtons from "./ShareButtons";
 
 export default function Article({ article }) {
   return (
@@ -9,6 +10,7 @@ export default function Article({ article }) {
         className="prose"
         dangerouslySetInnerHTML={{ __html: article.content }}
       ></div>
+      <ShareButtons />
     </div>
   );
 }
