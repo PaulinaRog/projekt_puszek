@@ -21,8 +21,7 @@ a {
 }
 
 input {
-  @apply rounded-lg outline-none border-2 border-secondary-light dark:border-secondary-dark focus:border-acc-light dark:focus:border-acc-dark bg-secondary-light dark:bg-secondary-dark shadow-md shadow-shdw-light dark:shadow-shdw-dark py-2 px-5;
-  -webkit-box-shadow: 5px 5px 10px rgb(111, 111, 111);
+  @apply rounded-lg outline-none border-2 border-bg-light dark:border-bg-dark focus:border-acc-light dark:focus:border-acc-dark bg-secondary-light dark:bg-secondary-dark shadow-md shadow-shdw-light dark:shadow-shdw-dark py-2 px-5;
 }
 
 button {
