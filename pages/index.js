@@ -38,6 +38,7 @@ export default function Index({ last4Posts }) {
     <>
       <Head>
         <title>Projekt Puszek</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <Layout>
         <div className="h-fit w-full container my-[50px]">
