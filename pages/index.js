@@ -32,8 +32,6 @@ export async function getStaticProps() {
 }
 
 export default function Index({ last4Posts }) {
-  console.log(last4Posts);
-
   return (
     <>
       <Head>

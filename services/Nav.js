@@ -357,12 +357,39 @@ export const nav = [
   },
   {
     id: 3,
-    link: ".",
+    link: "/sklep",
     name: "SKLEP",
+    sub: [
+      {
+        link: "/sklep/koty",
+        name: "DLA KOTÓW",
+      },
+    ],
   },
   {
     id: 4,
-    link: ".",
+    link: "/kontakt",
     name: "KONTAKT",
+    sub: [
+      {
+        link: "/kontakt/o-nas",
+        name: "O NAS",
+      },
+    ],
+  },
+  {
+    id: 5,
+    link: "/konto",
+    name: <i className="fa-solid fa-circle-user"></i>,
+    sub: [
+      {
+        link: "/konto",
+        name: "LOGOWANIE",
+      },
+      {
+        link: "/konto/rejestracja",
+        name: "REJESTRACJA",
+      },
+    ],
   },
 ];

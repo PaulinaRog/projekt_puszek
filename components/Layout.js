@@ -109,7 +109,6 @@ export default function Layout({ children }) {
                   {showSubcategories[link.id] && (
                     <div className="flex flex-col gap-2 pl-10 lg:hidden">
                       {link.sub &&
-                        link.sub.length > 0 &&
                         link.sub.map((subCat) => (
                           <Link
                             key={subCat.name}
@@ -129,10 +128,6 @@ export default function Layout({ children }) {
                 </React.Fragment>
               );
             })}
-
-            <Link href="">
-              <i className="fa-solid fa-circle-user"></i>
-            </Link>
           </nav>
           <button
             aria-label="menu"
@@ -154,23 +149,25 @@ export default function Layout({ children }) {
           </button>
         </div>
         <div className="h-[7vh] w-full bg-secondary-light dark:bg-secondary-dark hidden lg:flex justify-evenly items-center">
-          {nav[isBlogPage ? 1 : 0].sub.map((subCat) => {
-            return (
-              <Link
-                key={subCat.name}
-                href={subCat.link}
-                className={`${
-                  currentRoute.startsWith(subCat.link) ||
-                  currentRoute === subCat.link
-                    ? "text-acc-light dark:text-acc-dark"
-                    : ""
-                }`}
-              >
-                {subCat.name}
-              </Link>
-            );
-          })}
+          {(
+            nav.find((link) => currentRoute.startsWith(link.link))?.sub ||
+            nav[0]?.sub
+          ).map((subCat) => (
+            <Link
+              key={subCat.name}
+              href={subCat.link}
+              className={`${
+                currentRoute.startsWith(subCat.link) ||
+                currentRoute === subCat.link
+                  ? "text-acc-light dark:text-acc-dark"
+                  : ""
+              }`}
+            >
+              {subCat.name}
+            </Link>
+          ))}
         </div>
+
         <CookieConsent />
       </header>
       <main>{children}</main>
