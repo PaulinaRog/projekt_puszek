@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "styles/input.css";
 import { CookiesProvider } from "react-cookie";
+import { SessionProvider } from "next-auth/react";
 
-export default function App({ Component, pageProps }) {
+export default function App({
+  Component,
+  pageProps: { session, ...pageProps },
+}) {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
@@ -20,9 +24,11 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      <CookiesProvider>
-        <Component {...pageProps} isDarkMode={isDarkMode} />
-      </CookiesProvider>
+      <SessionProvider session={session}>
+        <CookiesProvider>
+          <Component {...pageProps} isDarkMode={isDarkMode} />
+        </CookiesProvider>
+      </SessionProvider>
     </>
   );
 }

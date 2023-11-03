@@ -5,14 +5,12 @@ import Sign from "@/components/Sign";
 import { createClientComponentClient } from "@supabase/auth-helpers-nextjs";
 import Link from "next/link";
 import { useState } from "react";
-import { useCookies } from "react-cookie";
 
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const supabase = createClientComponentClient();
   const [modal, setModal] = useState(false);
-  const [cookies, setCookies, removeCookies] = useCookies(["user"]);
 
   const handleSignIn = async () => {
     const { user, error } = await supabase.auth.signInWithPassword({
@@ -22,13 +20,11 @@ export default function Login() {
         emailRedirectTo: `http://localhost:3000/auth/callback`,
       },
     });
+    if (user) {
+      sessionStorage.setItem("session", user.access_token);
+      router.push("/");
+    }
   };
-
-  console.log(cookies);
-
-  // const remove = () => {
-  //   removeCookies("user", { path: "/" });
-  // };
 
   return (
     <Layout>
@@ -61,7 +57,6 @@ export default function Login() {
         >
           Zaloguj
         </button>
-        {/* <button onClick={remove}>Remove</button> */}
         <span
           className="mt-2 self-end text-stone-500 dark:text-stone-400 text-sm cursor-pointer hover:text-acc-light hover:dark:text-acc-dark"
           onClick={() => {
