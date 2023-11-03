@@ -43,3 +43,11 @@ npm i react-share
 ```bash
 npm install @supabase/auth-helpers-nextjs @supabase/supabase-js
 ```
+
+```bash
+npm install react-cookie
+```
+
+```bash
+npm install jsonwebtoken
+```

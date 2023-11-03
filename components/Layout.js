@@ -15,7 +15,6 @@ export default function Layout({ children }) {
 
   const router = useRouter();
   const currentRoute = router.asPath;
-  const isBlogPage = currentRoute.startsWith("/blog");
 
   useEffect(() => {
     const isDark = localStorage.getItem("darkMode");

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "styles/input.css";
+import { CookiesProvider } from "react-cookie";
 
 export default function App({ Component, pageProps }) {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -19,7 +20,9 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      <Component {...pageProps} isDarkMode={isDarkMode} />
+      <CookiesProvider>
+        <Component {...pageProps} isDarkMode={isDarkMode} />
+      </CookiesProvider>
     </>
   );
 }

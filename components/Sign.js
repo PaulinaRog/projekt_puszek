@@ -1,21 +1,32 @@
 import React, { useState } from "react";
 
-export default function Sign({ email, password, setEmail, setPassword }) {
+export default function Sign({
+  email,
+  password,
+  setEmail,
+  setPassword,
+  emailError,
+  passError,
+}) {
   const [toggle, setToggle] = useState(false);
 
   return (
     <>
-      <label className="block mb-1 mt-6" htmlFor="username">
+      <label className="block mb-1 mt-6" htmlFor="email">
         E-mail
       </label>
       <input
-        className=" w-full py-3 px-3 leading-tight"
+        id="email"
+        className={` w-full py-3 px-3 leading-tight ${
+          email && emailError
+            ? " outline-red-500 outline-2 -outline-offset-2"
+            : ""
+        }`}
         onChange={(e) => setEmail(e.target.value)}
         value={email}
-        autoComplete="false"
       />
 
-      <label className="block mb-1 mt-6" htmlFor="password">
+      <label className="block mb-1 mt-3" htmlFor="password">
         Hasło
       </label>
       <div className="relative w-full">
@@ -36,11 +47,15 @@ export default function Sign({ email, password, setEmail, setPassword }) {
           </label>
         </div>
         <input
+          id="password"
           type={toggle === false ? "password" : "text"}
-          className="w-full py-3 px-3 leading-tight js-password"
+          className={` w-full py-3 px-3 leading-tight ${
+            password && passError
+              ? "outline-red-500 outline-2 -outline-offset-2"
+              : ""
+          } js-password`}
           onChange={(e) => setPassword(e.target.value)}
           value={password}
-          autoComplete="false"
         />
       </div>
     </>

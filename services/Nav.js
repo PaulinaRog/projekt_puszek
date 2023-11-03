@@ -379,11 +379,11 @@ export const nav = [
   },
   {
     id: 5,
-    link: "/konto",
+    link: "/konto/logowanie",
     name: <i className="fa-solid fa-circle-user"></i>,
     sub: [
       {
-        link: "/konto",
+        link: "/konto/logowanie",
         name: "LOGOWANIE",
       },
       {
