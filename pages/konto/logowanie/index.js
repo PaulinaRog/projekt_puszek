@@ -17,7 +17,7 @@ export default function Login() {
       email,
       password,
       options: {
-        emailRedirectTo: `http://localhost:3000/auth/callback`,
+        emailRedirectTo: `http://localhost:3000/api/auth/callback`,
       },
     });
     if (user) {
